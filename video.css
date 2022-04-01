@@ -1,0 +1,36 @@
+.center{
+    margin-top: 20px;
+}
+
+.mp4{
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+.dian {
+    width: 390px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.center li{
+    float: left;
+    width: 130px;
+    line-height:50px;
+    font-size:17px;
+    color: yellow;
+    font-weight: 600;
+}
+
+.dian img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    cursor:pointer;
+}

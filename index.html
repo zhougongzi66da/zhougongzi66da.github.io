@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="common.css">
+</head>
+
+<body>
+    <div class="fixed">
+    </div>
+    <div class="head">
+        <img src="imgs/logo.png" alt="">
+    </div>
+    <div class="banner">
+        <div class="w">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="achievement.html">成就馆</a></li>
+                <li><a href="video.html">我的视频</a></li>
+                <li><a href="liuyan.html">留言板</a></li>
+            </ul>
+            <div class="change">
+                <span class="tishi">点击右侧切换皮肤</span>
+                <div class="s" style="background-image: linear-gradient(to right top, rgb(187, 247, 208), rgb(134, 239, 172), rgb(59, 130, 246))"></div>
+                <div class="s" style="background-image: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248))"></div>
+                <div class="s" style="background-image: linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))"></div>
+            </div>
+        </div>
+    </div>
+    <div class="sbpk">
+    </div>
+    <div class="center">
+        <div class="w">
+            <div class="left">
+                <div class="touxiang"></div>
+                <div class="zhou">周公子66哒</div>
+                <ul>
+                    <li><a href="https:zhougongzi66da.github.io" class="github"></a></li>
+                    <li><a href="#" class="qq"></a></li>
+                    <li><a href="#" class="wechat"></a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="txt">
+                    <h1>个人简介</h1>
+                    <p>大家好，欢迎光临我的主页！</p>
+                    <p>
+                        我是来自吉林大学软件工程专业的20级学生，在课余时间断断续续学习了一个多月的前端，由于水平有限，目前仅能用简单的
+                        一些技术来做出个人主页，在我学习更多的技术之后，还将对此网页进行进一步优化。
+                    </p>
+                    <p>
+                        我对于编程很感兴趣，目前主要利用课余时间学习Java开发，希望以后成为一名合格的软件工程师。除了学习，我还非常热爱体育运动，
+                        平时爱看NBA，喜欢打篮球，每星期会去健身房2-3次进行锻炼。我觉得作为一名程序员，为了更好地应对日后工作的压力，良好的身体素质是比不可少的，
+                        希望大家平时不要一直在电脑前敲代码，要经常进行体育锻炼。欢迎大家添加我的练习方式，平时可以一起交流学习方面的问题，也可以一起约球。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w">
+            <i>Created By Zym</i>
+        </div>
+    </div>
+    <script>
+        var changes = document.querySelector('.change').querySelectorAll('div');
+        var sbpk = document.querySelector('.sbpk');
+        changes[0].onclick = function () {
+            sbpk.style.background = 'url("imgs/sbpk01.jpg") no-repeat';
+            sbpk.style.backgroundSize = "cover";
+            document.body.style.backgroundImage = "linear-gradient(to right top, rgb(187, 247, 208), rgb(134, 239, 172), rgb(59, 130, 246))";
+        }
+        changes[1].onclick = function () {
+            sbpk.style.background = 'url("imgs/sbpk02.jpg") no-repeat';
+            sbpk.style.backgroundSize = "cover";
+            document.body.style.backgroundImage = "linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248))";
+        }
+        changes[2].onclick = function () {
+            sbpk.style.background = 'url("imgs/sbpk03.jpg") no-repeat';
+            sbpk.style.backgroundSize = "cover";
+            document.body.style.backgroundImage = "linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))";
+        }
+        var wechat = document.querySelector('.wechat');
+        wechat.onclick = function () {
+            alert("微信号被我藏起来了，找找看它在哪里")
+        }
+        wechat.addEventListener('click', function (e) {
+            e.preventDefault();//dom 标准写法
+        })
+    </script>
+</body>
+
+</html>

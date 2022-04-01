@@ -1,0 +1,117 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head img{
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+}
+body {
+    background-image:linear-gradient(to right top, rgb(187, 247, 208), rgb(134, 239, 172), rgb(59, 130, 246));
+     /* background-color: linear-gradient(rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234)); */
+}
+
+.fixed{
+    position: fixed;
+    top: 400px;
+    /* 1.走浏览器宽度的一半 */
+    left: 50%;
+    /* 2.利用margin走版心宽度的一半 */
+    margin-left: 600px;
+    height: 110px;
+    width: 95px;
+    background:url("imgs/fixed.png") no-repeat;
+    background-size: 95px;
+    background-position-y: 7px;
+    border-radius: 20px;
+    background-color: black;
+    transition: all 0.5s;/*持续时间*/
+}
+
+.fixed:hover{
+    background: url("imgs/wechat.jpg");
+    background-size: cover !important;
+}
+.head{
+    height: 50px;
+}
+
+.banner{
+    height: 60px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.banner ul li{
+    float: left;
+}
+
+.banner ul a{
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    font-size: 18px;
+    color: white;
+    font-family: "Microsoft YaHei";
+    transition: all 1s;
+    text-align: center;
+}
+
+.banner ul a:hover{
+    color: #d8e335;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px 5px #d8e335,0 0 50px 5px #d8e335,0 0 100px 5px #d8e335;/*盒子阴影*/
+    transition: all 0.5s;/*持续时间*/
+}
+
+.banner .change{
+    width: 400px;
+    height: 60px;
+    float: right;
+    margin-right: 50px;
+}
+
+.change .tishi{
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-family: "Microsoft YaHei";
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+}
+.change .s{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    float: left;
+}
+
+.change .s:hover{
+    box-shadow: 0 0 20px 5px #d8e335;/*盒子阴影*/
+    transition: all 0.5s;/*持续时间*/
+    cursor:pointer
+}
+
+.sbpk{
+    height: 500px;
+    background: url("imgs/sbpk01.jpg") no-repeat;
+    background-size: cover ;
+}
+
+.footer {
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.footer i{
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 17px;
+}

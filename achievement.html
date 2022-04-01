@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="achievement.css">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <div class="head">
+        <img src="imgs/logo.png" alt="">
+    </div>
+    <div class="banner">
+        <div class="w">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="achievement.html">成就馆</a></li>
+                <li><a href="video.html">我的视频</a></li>
+                <li><a href="liuyan.html">留言板</a></li>
+            </ul>
+            <div class="change">
+                <span class="tishi">点击右侧切换皮肤</span>
+                <div class="s" style="background-image: linear-gradient(to right top, rgb(187, 247, 208), rgb(134, 239, 172), rgb(59, 130, 246))"></div>
+                <div class="s" style="background-image: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248))"></div>
+                <div class="s" style="background-image: linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))"></div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed">
+    </div>
+    <div class="sbpk">
+    </div>
+    <div class="center"> 
+        <div class="w">
+            <div class="jp">
+                <img src="imgs/奖牌.jpg" alt="">
+                <div class="mask"><i>篮球赛奖牌</i></div>
+            </div>
+            <div class="jb">
+                <img src="imgs/奖杯.jpg" alt="">
+                <div class="mask"><i>篮球赛奖杯</i></div>
+            </div>
+            <div class="jxj">
+                <img src="imgs/三等奖学金.jpg" alt="">
+                <div class="mask"><i>校三等奖学金</i></div>
+            </div>
+            <div class="wtj">
+                <img src="imgs/文体活动奖.jpg" alt="">
+                <div class="mask"><i>文体活动奖</i></div>
+            </div>
+            <div class="jianmo">
+                <img src="imgs/数学建模.jpg" alt="">
+                <div class="mask"><i>数学建模比赛</i></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w">
+            <i>Created By Zym</i>
+        </div>
+    </div>
+    <script>
+        var changes = document.querySelector('.change').querySelectorAll('div');
+        var sbpk = document.querySelector('.sbpk');
+        changes[0].onclick = function () {
+            sbpk.style.background = 'url("imgs/sbpk01.jpg") no-repeat';
+            sbpk.style.backgroundSize = "cover";
+            document.body.style.backgroundImage = "linear-gradient(to right top, rgb(187, 247, 208), rgb(134, 239, 172), rgb(59, 130, 246))";
+        }
+        changes[1].onclick = function () {
+            sbpk.style.background = 'url("imgs/sbpk02.jpg") no-repeat';
+            sbpk.style.backgroundSize = "cover";
+            document.body.style.backgroundImage = "linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248))";
+        }
+        changes[2].onclick = function () {
+            sbpk.style.background = 'url("imgs/sbpk03.jpg") no-repeat';
+            sbpk.style.backgroundSize = "cover";
+            document.body.style.backgroundImage = "linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))";
+        }
+    </script>
+</body>
+</html>

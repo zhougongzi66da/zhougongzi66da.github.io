@@ -1,0 +1,89 @@
+
+.center .w img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px;
+}
+
+
+.mask {
+    position: absolute;
+    display: none;
+    text-align: center;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px;
+    background: rgba(0, 0, 0, 0.4) url(tubiao.jpg) no-repeat center;
+    box-shadow: 0 0 20px 20px #d8e335;/*盒子阴影*/
+}
+
+.center .w i{
+    position: relative;
+    display: block;
+    top: 45%;
+    font-size: 30px;
+    color: aqua;
+}
+
+.jp{
+    position: relative;
+    width: 360px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+
+.jb{
+    position: relative;
+    width: 360px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.jxj{
+    position: relative;
+    width: 360px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.wtj{
+    position: relative;
+    width: 360px;
+    height: 400px;
+    margin: 20px auto;
+
+}
+
+.jianmo{
+    position: relative;
+    width: 537px;
+    height: 400px;
+    margin: 20px auto;
+}
+.jp:hover .mask{
+    display: block;
+    transition: all 5s;/*持续时间*/
+    
+}
+.jb:hover .mask{
+    display: block;
+    
+}
+.jxj:hover .mask{
+    display: block;
+    
+}
+.wtj:hover .mask{
+    display: block;
+    
+}
+
+.jianmo:hover .mask{
+    display: block;
+    
+}
+
+

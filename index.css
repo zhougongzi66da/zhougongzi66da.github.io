@@ -1,0 +1,107 @@
+
+.center{
+    margin-top: 30px;
+    height: 600px;
+}
+
+.center .left{
+    float: left;
+    width: 350px;
+    height: 566px;
+    background-color:white;
+    box-shadow:10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.center .left .touxiang{
+    width: 120px;
+    height: 120px;
+    margin: 120px auto;
+    margin-bottom: 15px;
+    border-radius: 60px 60px;
+    background: url("imgs/卡通人物.png") no-repeat center black;
+    background-size: cover;
+}
+
+.left .zhou{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 900;
+}
+.left ul {
+    width: 240px;
+    height: 40px;
+    margin: 20px auto;
+}
+
+.left ul li{
+    float: left;
+    width: 80px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.left ul li a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.github{
+    background: url("imgs/GitHub.png") center no-repeat;
+    background-size: cover;
+}
+
+ .qq{
+    background: url("imgs/qq.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.wechat{
+    background: url("imgs/微信.png") center no-repeat;
+    background-size: cover;
+}
+
+
+.center .right{
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+    height: 506px;
+    width: 600px;
+    background-color: white;
+    box-shadow:10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.center .right .txt{
+   text-indent: 2em;
+   width: 450px;
+   height: 450px;
+   font-size: 16px;
+   margin: 0 auto;
+   background-color: rgba(0, 0, 0, 0);
+}
+
+.center .right .txt h1{
+    margin: 25px 0 15px;
+    height: 50px;
+    text-indent: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.center .right p{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
