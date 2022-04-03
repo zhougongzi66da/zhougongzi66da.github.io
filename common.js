@@ -1,3 +1,4 @@
+window.addEventListener('load', function() {
 var changes = document.querySelector('.change').querySelectorAll('div');
 var sbpk = document.querySelector('.sbpk');
 changes[0].onclick = function () {
@@ -15,3 +16,4 @@ changes[2].onclick = function () {
     sbpk.style.backgroundSize = "cover";
     document.body.style.backgroundImage = "linear-gradient(to right, rgb(236, 72, 153), rgb(239, 68, 68), rgb(234, 179, 8))";
 }
+});
